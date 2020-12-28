@@ -79,46 +79,4 @@ class Main extends Component {
     }
   }
 
-// const Main = () => {
-//   const [dataPersonnel, setDataPersonnel] = useState([]);
-//   useEffect(() => {
-//     axios.get('https://randomuser.me/api/?results=28')
-//     .then(result => {
-//       console.log('data API', result.data);
-//       const responseAPI = result.data;
-
-//       setDataPersonnel(responseAPI.data)
-//     })
-//     .catch(err => {
-//       console.log('error: ', err);
-//     })
-//   }, [])
-//   const history = useHistory();
-//   return (
-//     <main>
-//       <div className="main__container">
-//         {/* <!-- MAIN TITLE STARTS HERE --> */}
-
-//         <div className="main__title">
-//           <div className="main__greeting">
-//             <h1>PERSONNEL LIST</h1>
-//             <p>List of all personnels</p>
-//           </div>
-//         </div>
-
-//         {/* <!-- MAIN TITLE ENDS HERE --> */}
-
-//         {/* <!-- MAIN CARDS STARTS HERE --> */}
-//         <div className="main__cards">
-//         <PersonnelList />
-//         <PersonnelList />
-//         </div>
-//         {/* <!-- MAIN CARDS ENDS HERE --> */}
-
-
-//       </div>
-//     </main>
-//   );
-// };
-
 export default Main;

@@ -17,12 +17,9 @@
   color: #a5aaad;
 }
 
-.navbar__left > a {
-  margin-right: 30px;
-  text-decoration: none;
-  color: #a5aaad;
-  font-size: 15px;
-  font-weight: 700;
+.navbar__left {
+  display: flex;
+  opacity: 0;
 }
 
 .navbar__right .active_link {
@@ -59,6 +56,15 @@
 
 @media only screen and (max-width: 480px) {
   .navbar__left {
+    display: flex;
+    margin-right: 75px;
+    opacity: 1;
+  }
+  .navbar__left > img {
+    width: 115px;
+    object-fit: contain;
+  }
+  .hi__user{
     display: none;
   }
 }

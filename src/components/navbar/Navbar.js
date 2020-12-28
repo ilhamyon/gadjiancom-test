@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import logo from "../../assets/logo.png";
 import avatar from "../../assets/avatar.png";
 
 const Navbar = ({ sidebarOpen, openSidebar }) => {
@@ -8,16 +9,18 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
         <i className="fa fa-bars" aria-hidden="true"></i>
       </div>
       <div className="navbar__left">
-        <a href="#!">Personnel List</a>
+        <img src={logo} alt="logo" />
       </div>
       <div className="navbar__right">
-      <h3>Halo, &nbsp; 
-        <a className="active_link" href="#!">
-          Gadjian User
-        </a>
-      </h3>
+        <div className="hi__user">
+          <h3>Halo, &nbsp; 
+            <a className="active_link" href="#!">
+              Gadjian User
+            </a>
+          </h3>
+        </div>
         <a href="#!">
-          <img width="40" src={avatar} alt="avatar" />
+          <img width="55" src={avatar} alt="avatar" />
         </a>
       </div>
     </nav>

@@ -12,7 +12,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3ea175;
+  background: #33bdbf;
   border-radius: 10px;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .text-title {
-  color: #2e4a66;
+  color: #a5aaad;
 }
 
 .text-lightblue {

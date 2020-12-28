@@ -67,6 +67,7 @@ main {
 
 img.avatar_card {
   margin: auto;
+  border-radius: 50%;
 }
 
 .bio p {
